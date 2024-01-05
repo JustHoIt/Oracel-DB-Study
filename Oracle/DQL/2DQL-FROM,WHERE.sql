@@ -1,3 +1,4 @@
+-- 데이터 질의어 - DQL(Data Query Language)
 /*
 조건 검색
 비교  [ =, <>, >, <=, >, >= ] ex) price < 20000
