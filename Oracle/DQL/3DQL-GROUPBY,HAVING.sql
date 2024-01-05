@@ -1,3 +1,4 @@
+-- 데이터 질의어 - DQL(Data Query Language)
 /* 정렬 ORDER BY*/
 /* 도서 이름순 검색*/
 SELECT *
