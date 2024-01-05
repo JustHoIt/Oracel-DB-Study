@@ -1,3 +1,4 @@
+-- 데이터 질의어 - DQL(Data Query Language)
 SELECT BOOKNAME, PUBLISHER, PRICE
 FROM BOOK
 WHERE BOOKNAME LIKE '축구의 역사';
