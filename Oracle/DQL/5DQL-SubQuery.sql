@@ -51,6 +51,11 @@ FROM CUSTOMER
 WHERE CUSTID IN(SELECT CUSTID
                 FROM ORDERS);
 
+/*
+EXISTS 상관 부속질의 문 형식이다. 원래 단어ㅔ서 의미하는 것과 같이 조건에 맞는 투플이 존재하면 결과에 포함시킨다.
+ 즉 부족질의문의 어떤 해이 조건에 만족하면 참이다. NOT EXISTS는 모든 조건행이 만족하지 않아야만 참이다.
+*/
+
 -- 주문이 있는 고객의 이름과 주소를 보이시오.
 SELECT NAME, ADDRESS
 FROM CUSTOMER cs
