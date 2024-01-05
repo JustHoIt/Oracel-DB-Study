@@ -1,3 +1,4 @@
+-- 데이터 질의어 - DQL(Data Query Language)
 /*Join*/
 
 /*
